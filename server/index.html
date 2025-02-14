@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat with Socket.IO</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js"
+    integrity="sha512-luMnTJZ7oEchNDZAtQhgjomP1eZefnl82ruTH/3Oj/Yu5qYtwL7+dVRccACS/Snp1lFXq188XFipHKYE75IaQQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="client.js"></script>
+</head>
+<body>
+  <h1>Chat with Socket.IO</h1>
+  <div id="messages"></div> <!-- Cambiado de <ul> a <div> para contener tablas -->
+  <input type="text" id="oficina" placeholder="Atlixco">
+  <input type="text" id="tipOficina" placeholder="1">
+  <button onclick="sendMessage()">Send</button>
+</body>
+</html>
